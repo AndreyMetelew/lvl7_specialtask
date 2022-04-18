@@ -29,41 +29,41 @@ public class Main {
                 и вывести информацию о них методом toString типа String""");
         System.out.println();
 
-        Human Mama = new Human("Мария", 37, false);
+        Human Мама = new Human("Мария", 37, false);
 
         Human Papa = new Human("Саша", 38, true);
 
         Human Babushka1 = new Human("Зина", 65, false);
-        Human Dedushka1 = new Human("Игнат", 63, true);
-        Mama.whoIsMother(Babushka1);
-        Mama.whoIsFather(Dedushka1);
+        Human Дедушка1 = new Human("Игнат", 63, true);
+        Мама.whoIsMother(Babushka1);
+        Мама.whoIsFather(Дедушка1);
 
         Human Babushka2 = new Human("Лариса", 67, false);
-        Human Dedushka2 = new Human("Василий", 69, true);
+        Human Дедушка2 = new Human("Василий", 69, true);
         Papa.whoIsMother(Babushka2);
-        Papa.whoIsFather(Dedushka2);
+        Papa.whoIsFather(Дедушка2);
 
-        Human sinok1 = new Human("Гриша", 16, true);
-        sinok1.whoIsMother(Mama);
-        sinok1.whoIsFather(Papa);
+        Human Сын1 = new Human("Гриша", 16, true);
+        Сын1.whoIsMother(Мама);
+        Сын1.whoIsFather(Papa);
 
-        Human dochka = new Human("Маша", 8, false);
-        dochka.whoIsMother(Mama);
-        dochka.whoIsFather(Papa);
+        Human Дочка = new Human("Маша", 8, false);
+        Дочка.whoIsMother(Мама);
+        Дочка.whoIsFather(Papa);
 
-        Human sinok2 = new Human("Миша", 13, true);
-        sinok2.whoIsMother(Mama);
-        sinok2.whoIsFather(Papa);
+        Human Сын2 = new Human("Миша", 13, true);
+        Сын2.whoIsMother(Мама);
+        Сын2.whoIsFather(Papa);
 
-        System.out.println(sinok1.toString());
-        System.out.println(sinok2.toString());
-        System.out.println(dochka.toString());
-        System.out.println(Mama.toString());
+        System.out.println(Сын1.toString());
+        System.out.println(Сын2.toString());
+        System.out.println(Дочка.toString());
+        System.out.println(Мама.toString());
         System.out.println(Papa.toString());
         System.out.println(Babushka1.toString());
-        System.out.println(Dedushka1.toString());
+        System.out.println(Дедушка1.toString());
         System.out.println(Babushka2.toString());
-        System.out.println(Dedushka2.toString());
+        System.out.println(Дедушка2.toString());
 
         // Вывод задания №7
         Static task7 = new Static();
